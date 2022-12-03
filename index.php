@@ -26,8 +26,6 @@
     $user = new UserController();
 
     //chamo o metodo que vai ta no array4
-    $methodName = $uri[4] . 'Action';
-    print_r($methodName);
-    exit();
-    $user->{$methodName};
+    $methodName = $uri[4] . 'Action';    
+    $user->{$methodName}();
 ?>

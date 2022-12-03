@@ -9,6 +9,7 @@ class UserController extends BaseController
         $stringParamsArray = $this->getStringParams();//chamando metodo da BaseController
  
         //Verificando se o metodo é GET/Funcao para por a string em maiuscula
+        
         if (strtoupper($requestMethod) == 'GET') 
         {
             try {
