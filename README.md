@@ -1,2 +1,2 @@
-# ApiRestPHP
-Curso de API e Rest com PHP - DIO
+# Bootcamp PHP
+Curso PHP - DIO
