@@ -16,16 +16,18 @@
         header("HTTP/1.1 404 Not Found");
         exit();
     }
-    print_r($_SERVER);
-    exit();
+   
 
     //Se estiver correto, o require  vai carregar o arquivo 
-    require ROOT_PATH . "/Controller/API/UserController.php";
+    require ROOT_PATH . "/Controller\API\UserController.php";
+    
 
     //instacio esse objeto
     $user = new UserController();
 
     //chamo o metodo que vai ta no array4
     $methodName = $uri[4] . 'Action';
+    print_r($methodName);
+    exit();
     $user->{$methodName};
 ?>

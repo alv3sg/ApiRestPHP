@@ -1,4 +1,5 @@
 <?php
-    class UserControlle{
-        
-    }
+class UserController
+{
+  
+}
